@@ -29,12 +29,12 @@ arcpy.CheckOutExtension("Spatial")
 arcpy.env.overwriteOutput = True
 
 # Python inputs
-#riv =  r"D:\PhD\Study1\Inputs\rivers.shp" # river network as a shapefile
-#cat = r"D:\PhD\Study1\Inputs\catchments.shp" # catchments as a shapefile
-#dem = r"D:\PhD\Study1\Inputs\DHyM.tif" # elevation model as a raster
-#wet = r"D:\PhD\Study1\Inputs\wetlands.shp" # measured valley bottom, wetlands or any wet signature in low areas
-#pth = r"D:\PhD\Study1\Outputs\river_valley_bottom_dk" # path to outputs (scratch and cost distance folders)
-#outval = r"D:\PhD\Study1\Outputs\river_valley_bottom_dk\outputs.gdb\rvb_dk" # path to output river valley
+#riv =  r"Path" # river network as a shapefile
+#cat = r"Path" # catchments as a shapefile
+#dem = r"Path" # elevation model as a raster
+#wet = r"Path" # measured valley bottom, wetlands or any wet signature in low areas as shapefile
+#pth = r"Path" # path to output folder (scratch and cost distance folders)
+#outval = r"Path" # path to output river valley bottom shapefile
 
 # ArcGIS inputs
 riv =  arcpy.GetParameterAsText(0) # river network as a shapefile
